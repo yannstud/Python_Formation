@@ -1,0 +1,70 @@
+Python is a programming Python language Python that lets you work quickly and integrate systems more effectively. Learn More
+Support Python in 2022! End of year fundraiser and membership drive are live now!   Join in today!
+Get Started
+
+Whether you're new to programming or an experienced developer, it's easy to learn and use Python.
+
+Start with our Beginner’s Guide
+Download
+
+Python source code and installers are available for download for all versions!
+
+Latest: Python 3.11.0
+Docs
+
+Documentation for Python's standard library, along with tutorials and guides, are available online.
+
+docs.python.org
+Jobs
+
+Looking for work or have a Python related position that you're trying to hire for? Our relaunched community-run job board is the place to go.
+jobs.python.org
+Latest News
+More
+    2022-11-23
+    Where is the PSF?
+    2022-11-15
+    Python 3.12.0 alpha 2 released
+    2022-11-07
+    It's time for our annual year-end PSF fundraiser and membership drive 🎉
+    2022-11-01
+    Thank You for Making PyCon US amazing, Jackie!
+    2022-10-26
+    Announcing Python Software Foundation Fellow Members for Q3 2022! 🎉
+Upcoming Events
+More
+    2022-12-07
+    NZPUG-Auckland Coding Evening
+    2022-12-09
+    PyCon Bolivia 2022
+    2022-12-17
+    Python Pizza Holguín
+    2022-12-21
+    An Introduction to Model Drift - PyLadies Amsterdam
+    2022-12-27
+    XtremePython 2022
+
+Success Stories
+
+More
+
+    "Python is all about automating repetitive tasks, leaving more time for your other SEO efforts."
+
+Using Python scripts to analyse SEO and broken links on your site by Marnix de Munck
+Use Python for…
+
+More
+
+    Web Development: Django, Pyramid, Bottle, Tornado, Flask, web2py
+    GUI Development: tkInter, PyGObject, PyQt, PySide, Kivy, wxPython
+    Scientific and Numeric: SciPy, Pandas, IPython
+    Software Development: Buildbot, Trac, Roundup
+    System Administration: Ansible, Salt, OpenStack, xonsh
+
+>>> Python Enhancement Proposals: The future of Python
+RSS
+>>> Python Software Foundation
+
+The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. Learn more
+
+Become a Member Donate to the PSF
