@@ -3,7 +3,8 @@ import json
 # import pyttsx3
 
 api_key = "my_api_key"
-city = "orcines"
+
+city = input("enter the city you want the weather for")
 
 try:
     response = requests.request('GET', f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric')
