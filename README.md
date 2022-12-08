@@ -19,10 +19,7 @@ Set up the API key
 
 # WebDevelopment Python Web project using flask
 ## Install 
-```
-pip install -r requirements.txt
-pip install psycopg2
-```
+```pip install -r requirements.txt```
 
 Set up a postgresql database the change the values of the user:password/database in app.py L17
 
