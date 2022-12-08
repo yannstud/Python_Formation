@@ -1,0 +1,5 @@
+alembic==1.8.1
+Flask==2.2.2
+flask_migrate==4.0.0
+MarkupSafe
+SQLAlchemy==1.4.44

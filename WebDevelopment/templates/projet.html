@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+    <h1>Projet</h1>
+    <section id="page_projet">
+        <div class="container">
+            <article>
+                <img src="{{ projet.img_path }}"" alt="Image de projet">
+                <div class="projet-description">
+                    <h3>{{ projet.title }}</h3>
+                    <p>{{ projet.description }}</p>
+                </div>
+            </article>
+        </div>
+        <div class="en-savoir-plus"><a href="{{ url_for('projets')}}">Plus de projets ...</a></div>
+        </section>
+{% endblock %}

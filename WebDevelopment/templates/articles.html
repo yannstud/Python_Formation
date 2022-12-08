@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block main %}
+    <section id="page-articles">
+        <div class="container-titre-btn">
+            <h1>Articles</h1>
+            <a class="btn-lien" href={{ url_for('article_create') }}> Creer </a>
+        </div>
+        {% for article in articles %}
+            <article>
+                <h3>
+                    <a href="{{ url_for('articles', slug=article.slug)}}">{{ article.title }}</a>
+                </h3>
+                <p>{{ article.content }}</p>
+            </article>
+        {% endfor %}
+        <div class="en-savoir-plus"><a href="{{ url_for('articles')}}">Plus d'articles ...</a></div>
+    </section>
+    
+        
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block main %}
+    <section class="formulaire">
+        <h1>Creation de projet</h1>
+        <form method="POST" action="{{ url_for('projet_create') }}" enctype="multipart/form-data">
+            <label for="projet_title">Titre</label>
+            <input required id="projet_title" type="text" name="projet_title">                
+            <label for="projet_slug">Slug</label>
+            <input required id="projet_slug" type="text" name="projet_slug">
+            <label for="projet">projet</label>
+            <textarea required id="projet" type="text" name="projet" column=100 rows=10></textarea>
+            <input id="projet_image" type="file" name="projet_image">
+            
+            <input type="submit" value="Creer">
+        </form>
+    </section>
+{% endblock %}
