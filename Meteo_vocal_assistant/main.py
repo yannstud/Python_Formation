@@ -1,10 +1,9 @@
 import requests
 import json
-# import pyttsx3
 
 api_key = "my_api_key"
 
-city = input("enter the city you want the weather for: ")
+city = input("Enter the city you want the weather for: ")
 
 try:
     response = requests.request('GET', f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric')
@@ -23,8 +22,3 @@ else:
 
     cleared_data = f"{data['name']} - Temperature: {temperature}C - Feels like: {feels_like}C - Humidity: {humidity}% - Description: {description}"
     print (cleared_data)
-
-    # TTS (not working on wsl)
-    # engine = pyttsx3.init()
-    # engine.say(cleared_data)
-    # engine.runAndWait()

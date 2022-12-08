@@ -69,16 +69,16 @@ try:
     db.check_table('chores')
 
     while True:
-        cmd = input("entrez une commande (+: Ajouter, -: Terminer, s: Supprimer, a: Afficher, q: Quitter): ")
+        cmd = input("Enter a command (+: Add, -: End, s: Delete, a: Show, q: Quit): ")
 
         if cmd == '+':
-            tache = input("Entrez le nom: ")
+            tache = input("Enter the name: ")
             db.add_chore(tache)
         elif cmd == "-":
-            idx = int(input("Entrez l'id de la tache "))
+            idx = int(input("Enter the id of the chore "))
             db.end_chore(idx)
         elif cmd == "s":
-            idx = int(input("Entrez l'id de la tache "))
+            idx = int(input("Enter the id of the chore "))
             db.delete_chore(idx)
         elif cmd == "a":
             ret = db.get_all_chores()

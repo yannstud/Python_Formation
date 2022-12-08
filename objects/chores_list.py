@@ -23,11 +23,11 @@ if __name__ == '__main__':
     while cmd != "q":
         if cmd == "s" or cmd == "-":
             id_chore = int(input("Enter the Id of the chore: "))
-            for tache in chores:
-                if tache.id == id_chore and cmd == "-":
-                    tache.do_chore()
-                elif tache.id == id_chore and cmd == "s":
-                    chores.remove(tache)
+            for chore in chores:
+                if chore.id == id_chore and cmd == "-":
+                    chore.do_chore()
+                elif chore.id == id_chore and cmd == "s":
+                    chores.remove(chore)
         elif cmd == "+":
             new_chore_name = input("Enter the name of the chore you want to add: ")
             chores.append(Chore(new_chore_name))

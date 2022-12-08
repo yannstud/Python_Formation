@@ -42,8 +42,8 @@ with open("AMZN.csv", "r", encoding="utf-8") as f:
             final_data.append(float(l.split(',')[1]))
 
 for i, v in enumerate(final_data):
-    x = zoom*i*echelle_x + offset_x
-    y = zoom*v*echelle_y
+    x = zoom * i * echelle_x + offset_x
+    y = zoom * v * echelle_y
     if i == 0:
         turtle.up()
         turtle.goto(x, y)
