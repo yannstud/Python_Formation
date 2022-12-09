@@ -2,7 +2,6 @@ import requests
 import json
 
 api_key = "my_api_key"
-
 city = input("Enter the city you want the weather for: ")
 
 try:

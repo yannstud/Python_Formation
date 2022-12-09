@@ -28,3 +28,6 @@ Set up a postgresql database the change the values of the user:password/database
 
 
 ## Graphical development
+### Order
+* counter
+* password_generator
